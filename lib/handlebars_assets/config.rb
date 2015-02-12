@@ -94,7 +94,7 @@ module HandlebarsAssets
     end
 
     def handlebars_extensions
-      @hbs_extensions ||= ['.hbs', '.handlebars']
+      @handlebars_extensions ||= ['.hbs', '.handlebars']
     end
 
     def hamlbars_extensions
