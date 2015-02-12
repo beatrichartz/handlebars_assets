@@ -94,19 +94,19 @@ module HandlebarsAssets
     end
 
     def handlebars_extensions
-      @handlebars_extensions ||= ['.html.hbs', '.hbs', '.handlebars']
+      @handlebars_extensions ||= %w(html.hbs hbs handlebars)
     end
 
     def hamlbars_extensions
-      @hamlbars_extensions ||= ['.hamlbars']
+      @hamlbars_extensions ||= %w(hamlbars)
     end
 
     def slimbars_extensions
-      @slimbars_extensions ||= ['.slimbars']
+      @slimbars_extensions ||= %w(slimbars)
     end
 
     def ember_extensions
-      @ember_extensions ||= ['.ember']
+      @ember_extensions ||= %w(ember)
     end
 
     def amd?
